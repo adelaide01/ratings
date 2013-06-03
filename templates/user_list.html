@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+{% block body %}
+
+<h3>Click on a user to see how they rated movies of their choice.</h3>
+
+{% for user in users %}
+<h3><a href="{{url_for("ratings_by_user", id=user.id)}}">User {{ user.id }}</a>, age {{ user.age }} has {{ user.ratings | length }} ratings</h3>
+
+{% endfor %}
+{% endblock %}

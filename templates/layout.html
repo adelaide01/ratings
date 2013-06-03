@@ -1,0 +1,21 @@
+<!doctype HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	{% block head %}
+	<link rel="stylesheet" type=text/css href="style.css" />
+	<title>Movie ratings</title>
+	{% endblock %}
+</head>
+<div id="content" class="page">
+	{% block content %}  
+	<h2>Movie ratings app</h2>
+	{% endblock %}
+</div>
+
+<div id="flash" class="page">
+  {% for message in get_flashed_messages() %}
+    <div class="flash">{{ message }}</div>
+  {% endfor %}
+  {% block body %}{% endblock %}
+</div>

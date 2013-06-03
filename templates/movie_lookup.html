@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+{% block body %}
+
+		<h2>Search for a movie</h2>
+		<form method="POST" action="/movie_results"> <!-- gets or retrieves raw_input from database, then redirects the action to /movie_results -->
+			<p>Enter title</p>
+			<input type = "text" name = "lookup"></input>
+			<br>
+			<input type = "submit" value="submit"></input>
+		</form>
+
+{% endblock %}

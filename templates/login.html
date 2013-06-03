@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+{% block body %}
+  		<a href="{{ url_for('new_user') }}">New users register here</a>
+		<h2>Please log in</h2>
+		<form method="POST" action="/authenticate"> <!-- posts or stores raw_input into database, then redirects the action to /save_user -->
+			<p>Email</p>
+			<input type = "text" name = "email"></input>
+			<p>Password</p>
+			<input type = "text" name = "password"></input>
+			<br>
+			<input type = "submit" value = "login"></input>
+		</form>
+
+{% endblock %}

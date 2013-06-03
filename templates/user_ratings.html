@@ -1,0 +1,6 @@
+<h2>Ratings by user {{ ratings[0].user_id }} </h2>
+		
+{% for rating in ratings %}
+Movie: {{ rating.movie.title }}</br>
+Rating: {{ rating.rating }} </br>
+{% endfor %}

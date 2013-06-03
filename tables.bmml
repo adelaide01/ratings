@@ -1,0 +1,22 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1408" measuredH="297" mockupW="1408" mockupH="185">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::Image" x="0" y="119" w="-1" h="-1" measuredW="418" measuredH="130" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./class_User.jpg</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Image" x="425" y="119" w="414" h="142" measuredW="439" measuredH="142" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./class_Movie.jpg</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Image" x="845" y="112" w="563" h="185" measuredW="604" measuredH="185" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./class_Rating.jpg</src>
+        <text/>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

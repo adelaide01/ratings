@@ -15,7 +15,7 @@ import datetime
 # print "Parsing: %s" % filepath
 
 def load_users(session):
-   """ Import file u.user into database. """
+    """ Import file u.user into database. """
     
     with open("seed/u.user") as f:
         reader = csv.reader(f, delimiter = "|")
