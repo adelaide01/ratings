@@ -1,3 +1,10 @@
+env/
+seed2.py
+judgement2.py
+new_user2.html
+user_list2.html
+ratings2.db
+
 *.py[co]
 
 # Packages
@@ -25,3 +32,4 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+
